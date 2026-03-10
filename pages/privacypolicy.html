@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Политика конфиденциальности - Rekxqu">
+    <title>Политика конфиденциальности | Rekxqu</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .legal-page {
+            min-height: 100vh;
+            padding: var(--section-padding) 0;
+        }
+
+        .legal-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .legal-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .legal-title {
+            font-size: clamp(32px, 5vw, 42px);
+            font-weight: 700;
+            letter-spacing: -1px;
+            margin-bottom: 16px;
+        }
+
+        .legal-subtitle {
+            color: var(--color-text-secondary);
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        .legal-section {
+            margin-bottom: 40px;
+            padding: 32px;
+            background: var(--color-bg-secondary);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg);
+        }
+
+        .legal-section-title {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--color-text);
+        }
+
+        .legal-section-title::before {
+            content: '';
+            display: inline-block;
+            width: 4px;
+            height: 24px;
+            background: var(--color-accent);
+            margin-right: 12px;
+            vertical-align: middle;
+            border-radius: 2px;
+        }
+
+        .legal-text {
+            color: var(--color-text-secondary);
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        .legal-text:last-child {
+            margin-bottom: 0;
+        }
+
+        .legal-list {
+            list-style: none;
+            margin: 16px 0;
+        }
+
+        .legal-list li {
+            position: relative;
+            padding-left: 24px;
+            margin-bottom: 12px;
+            color: var(--color-text-secondary);
+            line-height: 1.7;
+        }
+
+        .legal-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: var(--color-accent);
+            font-size: 20px;
+            line-height: 1.6;
+        }
+
+        .legal-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--color-text);
+            text-decoration: underline;
+            text-underline-offset: 4px;
+            transition: opacity var(--transition-fast);
+        }
+
+        .legal-link:hover {
+            opacity: 0.7;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 40px;
+            color: var(--color-text-secondary);
+            font-size: 15px;
+            transition: color var(--transition-fast);
+        }
+
+        .back-link:hover {
+            color: var(--color-text);
+        }
+
+        .back-link svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .legal-highlight {
+            color: var(--color-text);
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .legal-section {
+                padding: 24px;
+            }
+
+            .legal-page {
+                padding: 80px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Курсор-след -->
+    <div class="cursor-follower"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Навигация -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="../index.html#home" class="nav-link">Главная</a></li>
+                <li class="nav-item"><a href="../index.html#projects" class="nav-link">Проекты</a></li>
+                <li class="nav-item"><a href="../index.html#about" class="nav-link">Обо мне</a></li>
+                <li class="nav-item"><a href="../index.html#contact" class="nav-link">Контакты</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="legal-page">
+        <div class="container legal-content">
+            <a href="../index.html" class="back-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                На главную
+            </a>
+
+            <div class="legal-header">
+                <h1 class="legal-title">Политика конфиденциальности</h1>
+                <p class="legal-subtitle">
+                    Последнее обновление: <span class="legal-highlight">10 марта 2026 г.</span>
+                </p>
+            </div>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Общие положения</h2>
+                <p class="legal-text">
+                    Настоящая Политика конфиденциальности описывает, как я (<span class="legal-highlight">Rekxqu</span>) 
+                    собираю, использую, обрабатываю и защищаю вашу личную информацию при посещении моего сайта и использовании сервисов.
+                </p>
+                <p class="legal-text">
+                    Я серьезно отношусь к защите вашей конфиденциальности и обязуюсь обеспечивать безопасность ваших персональных данных 
+                    в соответствии с применимым законодательством, включая Федеральный закон № 152-ФЗ «О персональных данных».
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Какая информация собирается</h2>
+                <p class="legal-text">Я могу собирать следующие типы информации:</p>
+                <ul class="legal-list">
+                    <li>
+                        <span class="legal-highlight">Персональные данные</span>, которые вы предоставляете добровольно: 
+                        имя, адрес электронной почты, сообщение при заполнении контактной формы.
+                    </li>
+                    <li>
+                        <span class="legal-highlight">Технические данные</span>, собираемые автоматически: 
+                        IP-адрес, тип браузера, операционная система, дата и время доступа, страницы, которые вы посещаете.
+                    </li>
+                    <li>
+                        <span class="legal-highlight">Файлы cookie</span> и аналогичные технологии отслеживания 
+                        для улучшения пользовательского опыта и анализа трафика.
+                    </li>
+                </ul>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Цели сбора информации</h2>
+                <p class="legal-text">Собранная информация используется для:</p>
+                <ul class="legal-list">
+                    <li>Связи с вами в ответ на ваши запросы и сообщения.</li>
+                    <li>Улучшения работы сайта и пользовательского опыта.</li>
+                    <li>Анализа статистики посещений и поведения пользователей.</li>
+                    <li>Защиты сайта от мошенничества и злоупотреблений.</li>
+                    <li>Выполнения требований применимого законодательства.</li>
+                </ul>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Защита информации</h2>
+                <p class="legal-text">
+                    Я принимаю разумные технические и организационные меры для защиты вашей личной информации от 
+                    несанкционированного доступа, утраты, изменения или раскрытия. Однако важно понимать, что 
+                    ни один метод передачи данных через Интернет не является абсолютно безопасным.
+                </p>
+                <p class="legal-text">
+                    Доступ к вашим персональным данным имеют только уполномоченные лица, непосредственно участвующие 
+                    в обработке запросов и поддержке сайта.
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Передача данных третьим лицам</h2>
+                <p class="legal-text">
+                    Я <span class="legal-highlight">не продаю, не обмениваю и не передаю</span> ваши персональные данные 
+                    третьим лицам без вашего согласия, за исключением следующих случаев:
+                </p>
+                <ul class="legal-list">
+                    <li>Предоставление услуг хостинга и технической поддержки сайта.</li>
+                    <li>Требования государственных органов в соответствии с законодательством.</li>
+                    <li>Защита моих законных прав и интересов в судебных разбирательствах.</li>
+                </ul>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Файлы cookie</h2>
+                <p class="legal-text">
+                    Сайт использует файлы cookie для улучшения функциональности и анализа трафика. 
+                    Файлы cookie — это небольшие текстовые файлы, которые сохраняются на вашем устройстве 
+                    при посещении сайта.
+                </p>
+                <p class="legal-text">
+                    Вы можете настроить свой браузер на отказ от файлов cookie, однако это может повлиять 
+                    на работу некоторых функций сайта.
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Ваши права</h2>
+                <p class="legal-text">Вы имеете право:</p>
+                <ul class="legal-list">
+                    <li>Получить доступ к вашим персональным данным.</li>
+                    <li>Требовать исправления неточной или неполной информации.</li>
+                    <li>Требовать удаления ваших персональных данных.</li>
+                    <li>Отозвать согласие на обработку персональных данных.</li>
+                    <li>Подать жалобу в уполномоченный орган по защите прав субъектов персональных данных.</li>
+                </ul>
+                <p class="legal-text">
+                    Для реализации своих прав вы можете связаться со мной по электронной почте: 
+                    <a href="mailto:rekxqu@yandex.ru" class="legal-link">rekxqu@yandex.ru</a>
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Изменения в политике конфиденциальности</h2>
+                <p class="legal-text">
+                    Я оставляю за собой право вносить изменения в настоящую Политику конфиденциальности 
+                    в любое время. Актуальная версия всегда будет доступна на этой странице. 
+                    Рекомендуется периодически проверять эту страницу на наличие обновлений.
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Контакты</h2>
+                <p class="legal-text">
+                    Если у вас возникли вопросы или предложения относительно настоящей Политики конфиденциальности, 
+                    пожалуйста, свяжитесь со мной:
+                </p>
+                <ul class="legal-list">
+                    <li>
+                        Email: <a href="mailto:rekxqu@yandex.ru" class="legal-link">rekxqu@yandex.ru</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">Rekxqu</span>
+                    <p class="footer-tagline">Создаю цифровые продукты с душой. Монтаж, дизайн, разработка — полный цикл от идеи до реализации.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Навигация</h4>
+                    <div class="footer-links">
+                        <a href="../index.html#home">Главная</a>
+                        <a href="../index.html#projects">Проекты</a>
+                        <a href="../index.html#about">Обо мне</a>
+                        <a href="../index.html#contact">Контакты</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Соцсети</h4>
+                    <div class="footer-social">
+                        <a href="#" aria-label="VK">
+                            <img src="../src/socials/vk.svg" alt="VK">
+                        </a>
+                        <a href="#" aria-label="Discord">
+                            <img src="../src/socials/discord.svg" alt="Discord">
+                        </a>
+                        <a href="#" aria-label="Telegram">
+                            <img src="../src/socials/telegram.svg" alt="Telegram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rekxqu. Все права защищены.</p>
+                <div class="footer-legal">
+                    <a href="privacypolicy.html">Политика конфиденциальности</a>
+                    <a href="termsofuse.html">Условия использования</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="../scripts/main.js"></script>
+</body>
+</html>

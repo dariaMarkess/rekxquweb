@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Условия использования - Rekxqu">
+    <title>Условия использования | Rekxqu</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .legal-page {
+            min-height: 100vh;
+            padding: var(--section-padding) 0;
+        }
+
+        .legal-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .legal-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .legal-title {
+            font-size: clamp(32px, 5vw, 42px);
+            font-weight: 700;
+            letter-spacing: -1px;
+            margin-bottom: 16px;
+        }
+
+        .legal-subtitle {
+            color: var(--color-text-secondary);
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        .legal-section {
+            margin-bottom: 40px;
+            padding: 32px;
+            background: var(--color-bg-secondary);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg);
+        }
+
+        .legal-section-title {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--color-text);
+        }
+
+        .legal-section-title::before {
+            content: '';
+            display: inline-block;
+            width: 4px;
+            height: 24px;
+            background: var(--color-accent);
+            margin-right: 12px;
+            vertical-align: middle;
+            border-radius: 2px;
+        }
+
+        .legal-text {
+            color: var(--color-text-secondary);
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        .legal-text:last-child {
+            margin-bottom: 0;
+        }
+
+        .legal-list {
+            list-style: none;
+            margin: 16px 0;
+        }
+
+        .legal-list li {
+            position: relative;
+            padding-left: 24px;
+            margin-bottom: 12px;
+            color: var(--color-text-secondary);
+            line-height: 1.7;
+        }
+
+        .legal-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: var(--color-accent);
+            font-size: 20px;
+            line-height: 1.6;
+        }
+
+        .legal-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--color-text);
+            text-decoration: underline;
+            text-underline-offset: 4px;
+            transition: opacity var(--transition-fast);
+        }
+
+        .legal-link:hover {
+            opacity: 0.7;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 40px;
+            color: var(--color-text-secondary);
+            font-size: 15px;
+            transition: color var(--transition-fast);
+        }
+
+        .back-link:hover {
+            color: var(--color-text);
+        }
+
+        .back-link svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .legal-highlight {
+            color: var(--color-text);
+            font-weight: 500;
+        }
+
+        .legal-warning {
+            background: rgba(255, 100, 100, 0.1);
+            border: 1px solid rgba(255, 100, 100, 0.3);
+            padding: 20px 24px;
+            border-radius: var(--radius-md);
+            margin: 20px 0;
+        }
+
+        .legal-warning .legal-text {
+            color: var(--color-text);
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            .legal-section {
+                padding: 24px;
+            }
+
+            .legal-page {
+                padding: 80px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Курсор-след -->
+    <div class="cursor-follower"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Навигация -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="../index.html#home" class="nav-link">Главная</a></li>
+                <li class="nav-item"><a href="../index.html#projects" class="nav-link">Проекты</a></li>
+                <li class="nav-item"><a href="../index.html#about" class="nav-link">Обо мне</a></li>
+                <li class="nav-item"><a href="../index.html#contact" class="nav-link">Контакты</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="legal-page">
+        <div class="container legal-content">
+            <a href="../index.html" class="back-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                На главную
+            </a>
+
+            <div class="legal-header">
+                <h1 class="legal-title">Условия использования</h1>
+                <p class="legal-subtitle">
+                    Последнее обновление: <span class="legal-highlight">10 марта 2026 г.</span>
+                </p>
+            </div>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Принятие условий</h2>
+                <p class="legal-text">
+                    Добро пожаловать на сайт <span class="legal-highlight">Rekxqu</span>. 
+                    Используя этот сайт, вы соглашаетесь с настоящими Условиями использования. 
+                    Если вы не согласны с какими-либо положениями этих условий, пожалуйста, 
+                    воздержитесь от использования данного сайта.
+                </p>
+                <p class="legal-text">
+                    Я оставляю за собой право изменять эти условия в любое время без предварительного уведомления. 
+                    Продолжение использования сайта после внесения изменений означает ваше согласие с новыми условиями.
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Интеллектуальная собственность</h2>
+                <p class="legal-text">
+                    Все материалы, размещенные на этом сайте, включая тексты, изображения, графику, дизайн, 
+                    логотипы, видео, код и другие элементы, являются моей интеллектуальной собственностью 
+                    или используются с разрешения правообладателей и защищены законодательством об авторском праве.
+                </p>
+                <div class="legal-warning">
+                    <p class="legal-text">
+                        <span class="legal-highlight">Запрещено</span> копировать, воспроизводить, распространять 
+                        или использовать любые материалы с сайта без моего письменного разрешения.
+                    </p>
+                </div>
+                <p class="legal-text">
+                    Вы можете просматривать и использовать сайт исключительно в личных, некоммерческих целях.
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Правила использования</h2>
+                <p class="legal-text">При использовании сайта вы обязуетесь:</p>
+                <ul class="legal-list">
+                    <li>Не использовать сайт в незаконных или запрещенных целях.</li>
+                    <li>Не пытаться получать несанкционированный доступ к серверам или системам сайта.</li>
+                    <li>Не использовать автоматизированные системы (боты, скрипты) для доступа к сайту.</li>
+                    <li>Не распространять вредоносное ПО, вирусы или любой другой вредоносный код.</li>
+                    <li>Не нарушать работу сайта или серверов, к которым он подключен.</li>
+                    <li>Не выдавать себя за другое лицо или организацию.</li>
+                </ul>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Портфолио и проекты</h2>
+                <p class="legal-text">
+                    Все проекты и работы, представленные в портфолио, являются реальными примерами моей деятельности. 
+                    Некоторые работы могут быть выполнены в сотрудничестве с клиентами или другими специалистами.
+                </p>
+                <p class="legal-text">
+                    Если вы хотите использовать какую-либо работу из портфолио или заказать аналогичную услугу, 
+                    пожалуйста, свяжитесь со мной через <a href="../index.html#contact" class="legal-link">контактную форму</a>.
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Контактная форма и сообщения</h2>
+                <p class="legal-text">
+                    При отправке сообщений через контактную форму вы обязуетесь предоставлять точную и полную информацию.
+                </p>
+                <p class="legal-text">
+                    Я оставляю за собой право:
+                </p>
+                <ul class="legal-list">
+                    <li>Не отвечать на сообщения, содержащие некорректную или оскорбительную информацию.</li>
+                    <li>Использовать предоставленную информацию только для связи с вами.</li>
+                    <li>Не гарантировать ответ на каждое сообщение в силу объективных причин.</li>
+                </ul>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Отказ от ответственности</h2>
+                <p class="legal-text">
+                    Сайт предоставляется «как есть» без каких-либо гарантий. Я не гарантирую, что:
+                </p>
+                <ul class="legal-list">
+                    <li>Сайт будет работать бесперебойно и без ошибок.</li>
+                    <li>Дефекты будут исправлены.</li>
+                    <li>Сайт или серверы, на которых он размещен, свободны от вирусов или других вредоносных компонентов.</li>
+                </ul>
+                <p class="legal-text">
+                    Я не несу ответственности за любой ущерб, возникший в результате использования или невозможности 
+                    использования сайта, включая упущенную выгоду, потерю данных или иные прямые или косвенные убытки.
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Ссылки на сторонние ресурсы</h2>
+                <p class="legal-text">
+                    Сайт может содержать ссылки на сторонние веб-сайты (социальные сети, платформы для демонстрации работ и т.д.). 
+                    Эти ссылки предоставляются исключительно для вашего удобства.
+                </p>
+                <p class="legal-text">
+                    Я не контролирую сторонние сайты и не несу ответственности за их содержание, политику конфиденциальности 
+                    или любые действия, совершенные на таких ресурсах. Переход по любым ссылкам осуществляется на ваш страх и риск.
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Применимое право</h2>
+                <p class="legal-text">
+                    Настоящие Условия использования регулируются законодательством Российской Федерации. 
+                    Любые споры, возникающие в связи с использованием сайта, подлежат разрешению в соответствии 
+                    с действующим законодательством РФ.
+                </p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-section-title">Контакты</h2>
+                <p class="legal-text">
+                    Если у вас возникли вопросы относительно настоящих Условий использования, 
+                    пожалуйста, свяжитесь со мной:
+                </p>
+                <ul class="legal-list">
+                    <li>
+                        Email: <a href="mailto:rekxqu@yandex.ru" class="legal-link">rekxqu@yandex.ru</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">Rekxqu</span>
+                    <p class="footer-tagline">Создаю цифровые продукты с душой. Монтаж, дизайн, разработка — полный цикл от идеи до реализации.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Навигация</h4>
+                    <div class="footer-links">
+                        <a href="../index.html#home">Главная</a>
+                        <a href="../index.html#projects">Проекты</a>
+                        <a href="../index.html#about">Обо мне</a>
+                        <a href="../index.html#contact">Контакты</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Соцсети</h4>
+                    <div class="footer-social">
+                        <a href="#" aria-label="VK">
+                            <img src="../src/socials/vk.svg" alt="VK">
+                        </a>
+                        <a href="#" aria-label="Discord">
+                            <img src="../src/socials/discord.svg" alt="Discord">
+                        </a>
+                        <a href="#" aria-label="Telegram">
+                            <img src="../src/socials/telegram.svg" alt="Telegram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rekxqu. Все права защищены.</p>
+                <div class="footer-legal">
+                    <a href="privacypolicy.html">Политика конфиденциальности</a>
+                    <a href="termsofuse.html">Условия использования</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="../scripts/main.js"></script>
+</body>
+</html>
