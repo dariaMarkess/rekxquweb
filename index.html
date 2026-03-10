@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Портфолио разработчика - современные веб-решения">
+    <title>Rekxqu | Портфолио</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Курсор-след -->
+    <div class="cursor-follower"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Навигация -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Главная</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Проекты</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">Обо мне</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Главная секция -->
+        <section class="hero" id="home">
+            <div class="hero-bg">
+                <div class="hero-gradient"></div>
+                <div class="hero-grid"></div>
+            </div>
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting">Привет, я</p>
+                    <h1 class="hero-title">
+                        <span class="title-line">Мультифункционал</span>
+                        <span class="title-line accent">Creative Developer</span>
+                    </h1>
+                    <p class="hero-description">
+                        Занимаюсь монтажом, созданием постеров, разработкой ПО 
+                        и созданием цифровых продуктов. Превращаю идеи в реальность.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Смотреть работы</span>
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">Связаться</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-image-wrapper">
+                        <img src="src/pics/portfolio.jpg" alt="Portfolio" class="hero-image">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+                <span>Листайте вниз</span>
+            </div>
+        </section>
+
+        <!-- Секция проектов -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Портфолио</span>
+                    <h2 class="section-title">Избранные проекты</h2>
+                    <p class="section-description">
+                        Коллекция работ, демонстрирующих мои навыки и подход к разработке
+                    </p>
+                </div>
+                <div class="projects-grid">
+                    <!-- Кейс 1: Монтаж -->
+                    <article class="project-card" data-tilt>
+                        <div class="project-image">
+                            <img src="src/cases/caseThree.jpg" alt="Видеомонтаж" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Видеомонтаж</h3>
+                            <p class="project-description">
+                                Профессиональный монтаж видео для YouTube, рекламы и соцсетей.
+                                Цветокоррекция, саунд-дизайн, визуальные эффекты.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Premiere Pro</span>
+                                <span class="tag">After Effects</span>
+                                <span class="tag">DaVinci</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Кейс 2: Постеры -->
+                    <article class="project-card" data-tilt>
+                        <div class="project-image">
+                            <img src="src/cases/caseOne.png" alt="Дизайн постеров" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Дизайн постеров</h3>
+                            <p class="project-description">
+                                Создание уникальных постеров для мероприятий, концертов,
+                                фестивалей и коммерческих проектов.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Photoshop</span>
+                                <span class="tag">Illustrator</span>
+                                <span class="tag">Figma</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Кейс 3: ПО -->
+                    <article class="project-card" data-tilt>
+                        <div class="project-image">
+                            <img src="src/cases/caseTwo.png" alt="Разработка ПО" class="project-img">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Разработка ПО</h3>
+                            <p class="project-description">
+                                Создание программного обеспечения: веб-приложения,
+                                утилиты, автоматизация процессов и кастомные решения.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">C#</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Обо мне" -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <span class="section-tag">Обо мне</span>
+                        <h2 class="section-title">Творчество + Технологии = Результат</h2>
+                        <div class="about-description">
+                            <p>
+                                Мультифункциональный специалист, объединяющий творческий подход 
+                                с техническими навыками. Работаю на стыке дизайна, монтажа и разработки.
+                            </p>
+                            <p>
+                                Создаю полный цикл контента: от идеи и визуала до готового продукта. 
+                                Каждый проект — это уникальное решение, которое выделяется и работает.
+                            </p>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <rect x="2" y="2" width="20" height="20" rx="2"/>
+                                        <path d="M8 12h8M12 8v8"/>
+                                    </svg>
+                                </div>
+                                <span>Монтаж</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                        <circle cx="8.5" cy="8.5" r="1.5"/>
+                                        <path d="M21 15l-5-5L5 21"/>
+                                    </svg>
+                                </div>
+                                <span>Дизайн</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <polyline points="16 18 22 12 16 6"/>
+                                        <polyline points="8 6 2 12 8 18"/>
+                                    </svg>
+                                </div>
+                                <span>Разработка</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                        <path d="M2 17l10 5 10-5"/>
+                                        <path d="M2 12l10 5 10-5"/>
+                                    </svg>
+                                </div>
+                                <span>Продукты</span>
+                            </div>
+                        </div>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="47">0</span>
+                                <span class="stat-label">Проектов</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="8">0</span>
+                                <span class="stat-label">Лет опыта</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="66">0</span>
+                                <span class="stat-label">Клиентов</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция контактов -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <span class="section-tag">Контакты</span>
+                        <h2 class="section-title">Давайте создадим что-то великое вместе</h2>
+                        <p class="contact-description">
+                            Открыт для интересных проектов и сотрудничества. 
+                            Свяжитесь со мной любым удобным способом.
+                        </p>
+                        <div class="contact-links">
+                            <a href="mailto:hello@rekxqu.dev" class="contact-link">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                                <span>hello@rekxqu.dev</span>
+                            </a>
+                            <a href="#" class="contact-link">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
+                                </svg>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required placeholder=" ">
+                            <label for="name">Ваше имя</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required placeholder=" ">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required placeholder=" "></textarea>
+                            <label for="message">Сообщение</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Отправить</span>
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">Rekxqu</span>
+                    <p class="footer-tagline">Создаю цифровые продукты с душой. Монтаж, дизайн, разработка — полный цикл от идеи до реализации.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Навигация</h4>
+                    <div class="footer-links">
+                        <a href="#home">Главная</a>
+                        <a href="#projects">Проекты</a>
+                        <a href="#about">Обо мне</a>
+                        <a href="#contact">Контакты</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Соцсети</h4>
+                    <div class="footer-social">
+                        <a href="#" aria-label="VK">
+                            <img src="src/socials/vk.svg" alt="VK">
+                        </a>
+                        <a href="#" aria-label="Discord">
+                            <img src="src/socials/discord.svg" alt="Discord">
+                        </a>
+                        <a href="#" aria-label="Telegram">
+                            <img src="src/socials/telegram.svg" alt="Telegram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rekxqu. Все права защищены.</p>
+                <div class="footer-legal">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Условия использования</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
