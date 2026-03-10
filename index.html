@@ -86,15 +86,15 @@
                 </div>
                 <div class="projects-grid">
                     <!-- Кейс 1: Монтаж -->
-                    <article class="project-card" data-tilt>
+                    <article class="project-card" data-tilt data-case="montage">
                         <div class="project-image">
                             <img src="src/cases/caseThree.jpg" alt="Видеомонтаж" class="project-img">
                             <div class="project-overlay">
-                                <a href="#" class="project-link">
+                                <span class="project-link">
                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
                                     </svg>
-                                </a>
+                                </span>
                             </div>
                         </div>
                         <div class="project-content">
@@ -112,15 +112,15 @@
                     </article>
 
                     <!-- Кейс 2: Постеры -->
-                    <article class="project-card" data-tilt>
+                    <article class="project-card" data-tilt data-case="design">
                         <div class="project-image">
                             <img src="src/cases/caseOne.png" alt="Дизайн постеров" class="project-img">
                             <div class="project-overlay">
-                                <a href="#" class="project-link">
+                                <span class="project-link">
                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
                                     </svg>
-                                </a>
+                                </span>
                             </div>
                         </div>
                         <div class="project-content">
@@ -138,15 +138,15 @@
                     </article>
 
                     <!-- Кейс 3: ПО -->
-                    <article class="project-card" data-tilt>
+                    <article class="project-card" data-tilt data-case="coding">
                         <div class="project-image">
                             <img src="src/cases/caseTwo.png" alt="Разработка ПО" class="project-img">
                             <div class="project-overlay">
-                                <a href="#" class="project-link">
+                                <span class="project-link">
                                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                         <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
                                     </svg>
-                                </a>
+                                </span>
                             </div>
                         </div>
                         <div class="project-content">
@@ -293,6 +293,26 @@
             </div>
         </section>
     </main>
+
+    <!-- Модальное окно для кейсов -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal" id="modal" role="dialog" aria-modal="true">
+            <button class="modal-close" id="modal-close" aria-label="Закрыть">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12"/>
+                </svg>
+            </button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal-title"></h3>
+                    <p class="modal-subtitle" id="modal-subtitle"></p>
+                </div>
+                <div class="modal-body" id="modal-body">
+                    <!-- Динамический контент -->
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer class="footer" id="footer">

@@ -10,6 +10,7 @@ import { initScrollAnimations } from './modules/animations.js';
 import { initTiltEffect } from './modules/tilt.js';
 import { initCounterAnimation } from './modules/counter.js';
 import { initContactForm } from './modules/form.js';
+import { Modal } from './modules/modal.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     // Инициализация всех модулей
@@ -23,6 +24,9 @@ document.addEventListener('DOMContentLoaded', () => {
     initContactForm();
     initActiveNavLink();
     initHeroParallax();
+    
+    // Инициализация модального окна
+    new Modal();
 });
 
 /**

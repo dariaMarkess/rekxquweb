@@ -1,3 +1,0 @@
-https://github.com/dariaMarkess/mdred - Удобный редактор заметок Markdown
-https://github.com/dariaMarkess/ElectroDownloader - Программа для скачивания видео/аудио со всего интернета
-https://github.com/dariaMarkess/StudentList - ПО для составление отчётов посещаемости студентов
